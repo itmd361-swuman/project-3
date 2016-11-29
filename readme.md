@@ -1,3 +1,9 @@
-Hello I'm Seyeon Lee. My partner is Shineun Yoon. 
-I believe she has a good ability to develop web sites.
-And she is so nice. I like her personality.
+Team member #1 Seyeon Lee
+- good at c++,java,php,data structure
+- easygoing
+- friendly
+
+Team member #2 Shineun Yoon
+- Passionate 
+- The spirit of challenge
+- The ownership mind
