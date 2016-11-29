@@ -45,7 +45,7 @@ table {
 /*==========================================BASESTYLES==========================================*/
 html {
   font-family: 'Pacifico', cursive;
-  background: white;
+  background: #F5D08A;
   margin: 0px;
   padding: 0px;
   color: black;
@@ -57,11 +57,14 @@ body {
 }
 
 main {
-  padding: 0.3125em 0.625em 0.3125em 0.625em;
-  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
-  background-color: black;
-  color: white;
+  padding: 0.3125em 0.5093em 0.3125em 0.5093em;
+  margin-top: 0.84876em;
+  margin-bottom: 0.84876em;
+  width: 70%;
+  background-color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 main ul {
@@ -76,8 +79,7 @@ main a {
 footer {
   padding-top: 0.84876em;
   width: 100%;
-  background-color: black;
-  color: white;
+  color: black;
   text-align: center;
 }
 
