@@ -14,28 +14,29 @@
 		<h1>Do you want to make special day more special?</h1>
 	</header>
 	<main>
-		<p>
-		<h2>To</h2>
-		<label><input type="text" id="to_text" ></label>
-		<h2>From
-		<label><input type="text" id="from_text" ></label></h2>
-		</p>
-		<p><h2>For what?</h2>
-		<label><input type="checkbox" id="cbox1" value="first_checkbox">Birthday</label>
-		<input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Father's Day</label>
-		<input type="checkbox" id="cbox3" value="third_checkbox"> <label for="cbox3">Mother's Day</label>
-		<input type="checkbox" id="cbox4" value="fourth_checkbox"> <label for="cbox4">Christmas</label>
-		</p>
-		<p>
-		<h2>Message</h2>
-		<textarea name="textarea" rows="10" cols="50">Write your message</textarea>
-		</p>
-		<p>
-		<form action="#" method="get">
-		<label><input type="submit" id="submit" value="publish"></label>
-		<label><input type="reset" id="reset" value="reset"></label>
-		</form>
-		</p>
+		<div>
+			<label>To</label>
+			<input type="text" id="to_text">
+			<label>From</label>
+			<input type="text" id="from_text" >
+			<label>For what?</label>
+			<input type="checkbox" id="cbox1" value="first_checkbox">Birthday
+			<input type="checkbox" id="cbox2" value="second_checkbox">Father's Day
+			<input type="checkbox" id="cbox3" value="third_checkbox">Mother's Day
+			<input type="checkbox" id="cbox4" value="fourth_checkbox">Christmas
+			<label>Message</label>
+			<textarea name="textarea" rows="10" cols="50">Write your message</textarea>
+		</div>
+		<div>
+			<label>Where is your the nearest Post Office?</label>
+			<input type="text" id="address">
+		</div>
+		<div>
+			<form action="#" method="get">
+			<input type="submit" id="submit" value="publish">
+			<input type="reset" id="reset" value="reset">
+			</form>
+		</div>
 	</main>
 	<footer>
 		<p>designed by SWUMAN</p>
