@@ -1,4 +1,3 @@
-/*========================================CSS Initiation========================================*/
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,
 center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,
 h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,
@@ -39,84 +38,4 @@ blockquote:after,blockquote:before,q:after,q:before {
 table { 
   border-collapse:collapse;
   border-spacing:0;
-}
-
-
-/*==========================================BASESTYLES==========================================*/
-html {
-  font-family: 'Pacifico', cursive;
-  background: #F5D08A;
-  margin: 0px;
-  padding: 0px;
-  color: black;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-main {
-  padding: 0.3125em 0.5093em 0.3125em 0.5093em;
-  margin-top: 0.84876em;
-  margin-bottom: 0.84876em;
-  width: 70%;
-  background-color: white;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-
-main ul {
-  padding: 0.3125em 0.625em 0.3125em 0.625em;
-  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
-}
-
-main a {
-  color: white;
-}
-
-footer {
-  padding-top: 0.84876em;
-  width: 100%;
-  color: black;
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.728em; /* 31.104px */
-  line-height: 1.375em; /* 44px */
-}
-
-h2 {
-  font-size: 1.44em;
-  line-height: 1.2731em;
-  padding-top: 0.84876em;
-}
-
-h3 {
-  font-size: 1.2em;
-  line-height: 1.0185em;
-  padding-top: 0.5093em;
-}
-
-img, video, audio {
-  display: block;
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
-  background-color: transparent;
-  color: black;
-}
-
-ul li a {
-  color: black;
-}
-
-figure figcaption {
-  font-size: 0.5093em;
-  font-style: italic;
 }
