@@ -26,5 +26,5 @@ function onPlayerReady(event){
 }
 
 function nextVideo(){
-
+	player.nextVideo();
 }
