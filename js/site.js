@@ -5,17 +5,18 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady(){
 	player = new YT.player("player",{
-
+	height: '360',
+	width: '640',
 	playerVars: {
 		"autoplay":0,
 		"controls":1
 	},
 	events: {
-
+		"onReady": onPlayerReady
 	}
 	});
 }
 
 function onPlayerReady(event){
-	
+
 }
