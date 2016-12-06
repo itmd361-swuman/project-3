@@ -5,5 +5,16 @@ var player;
 function onYouTubeIframeAPIReady(){
 	player = new YT.player("player",{
 
+	playerVars: {
+		"autoplay":0,
+		"controls":1
+	},
+	events: {
+
+	}
 	});
+}
+
+function onPlayerReady(event){
+	
 }
