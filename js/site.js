@@ -20,3 +20,7 @@ function onYouTubeIframeAPIReady(){
 function onPlayerReady(event){
 
 }
+
+function nextVideo(){
+	
+}
