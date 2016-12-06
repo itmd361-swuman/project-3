@@ -18,9 +18,13 @@ function onYouTubeIframeAPIReady(){
 }
 
 function onPlayerReady(event){
-
+	player.cuePlaylist({
+  listType:"playlist",
+  list:"PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc",
+  index:"0"
+  });
 }
 
 function nextVideo(){
-	
+
 }
