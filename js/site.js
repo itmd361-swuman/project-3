@@ -1,32 +1,15 @@
-
-var tag = document.createElement("script");
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-var player;
-
-function onYouTubeIframeAPIReady() {
-	player = new YT.Player("player", {
-	  height: '360',
-	  width: '640',
-	  playerVars: { 
-	  	"autoplay": 0, 
-	  	"controls": 1
-	  },
-	  events: {
-	    "onReady": onPlayerReady
-	  }
-	});
-}
-      
-function onPlayerReady(event) {
-  player.cuePlaylist({
-	  listType:"playlist",
-	  list:"PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc",
-	  index:"0"
+$(document).ready(function() {
+  $('#rl-form').on('submit', function (event) {
+    var query = $('#rl-name').val();
+    $.get(
+      'https://nutritionix-api.p.mashape.com/v1_1/search/' + query, //resource
+      function(data) { // things to do with data
+        $("#result").append(
+          '<p>'+ data.hits[0].fields.item_name +' is producted by '
+                + data.hits[0].fields.brand_name 
+                + '. It has ' + data.hits[0].fields.nf_calories + 'per 1 serving</p>');
+      });
+      event.preventDefault();
+      //alert('Form Submitted');
   });
-}
-      
-function nextVideo(){
-  player.nextVideo();
-}            
+});
