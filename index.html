@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<!--Responsive Web-->
-	<meta name="viewport" content="width=device-width,intial-scale=1.0,shrink-to-fit=no"/>
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" media="screen" href="./css/screen.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-	<title>Today's Menu</title>
+  <title>Welcome</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="css/screen.css">	
 </head>
 <body>
-<header>
-	<h1>Are you finding something to eat?</h1>
-	<h2>Search your receipe</h2>
-</header>
-<main>
-	<img src="src/img.png" sizes="100vw">
-	<div id="player"></div>
-	<script type="text/javascript" src="./js/site.js"></script>
-</main>
-<footer>
-	Copyright © 2016 All rights reserved
-</footer>
+  <div id="page">
+    <header id="header">
+      <h1>Testing</h1>
+    </header>
+    <main id="content">
+      <article id="controls">
+        <form id="rl-form" name="rl-form" method="get" action="#null">
+          <label for="rl-name">Look Recipe for Dinner:</label>
+          <input type="text" id="rl-name" name="rl-name">
+          <input type="submit" id="rl-submit" name="rl-submit" value="Search">
+        </form>
+      </article>
+      <article id="result">
+      </article>
+    </main>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="./js/site.js"></script>
 </body>
 </html>
